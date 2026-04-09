@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import numpy as np
+array=np.array(input().split(),int)
+array_zeroes=np.zeros((array), dtype=int)
+print(array_zeroes)
+array_ones=np.ones((array), dtype=int)
+print(array_ones)
